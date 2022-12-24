@@ -1,5 +1,14 @@
 # postgresql_extension_demo
 
+## Extensions
+Listing extensions
+
+```sql
+SELECT pg_available_extensions();
+SELECT pg_available_extension_versions();
+```
+
+
 ## References
 Links:
 - https://manager.pgxn.org/howto
